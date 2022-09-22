@@ -1,0 +1,25 @@
+Source: node-unicode-property-value-aliases-ecmascript
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               node-jsesc,
+               node-unicode-property-aliases-ecmascript,
+               nodejs:any,
+               unicode-data (>= 13.0.0)
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://github.com/mathiasbynens/unicode-property-value-aliases-ecmascript
+Vcs-Git: https://salsa.debian.org/js-team/node-unicode-property-value-aliases-ecmascript.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-unicode-property-value-aliases-ecmascript
+
+Package: node-unicode-property-value-aliases-ecmascript
+Architecture: all
+Multi-Arch: foreign
+Depends: nodejs, ${misc:Depends}
+Description: Unicode aliases in ECMAScript regular expressions for Node.js
+ The ECMAScript RegExp norm supports some aliases for property names and
+ values in property escapes, which this package makes available as mappings.
+ .
+ Node.js is an event-based server-side JavaScript engine.

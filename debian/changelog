@@ -1,0 +1,81 @@
+node-unicode-property-value-aliases-ecmascript (2.0.0+ds-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on
+      node-unicode-property-aliases-ecmascript.
+
+  [ Julien Puydt ]
+  * Mark the dep on nodejs with :any.
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 24 Sep 2021 14:43:25 +0200
+
+node-unicode-property-value-aliases-ecmascript (1.1.0+ds-3) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump std-vers to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 25 Aug 2021 15:18:16 +0200
+
+node-unicode-property-value-aliases-ecmascript (1.1.0+ds-2) unstable; urgency=medium
+
+  * Install to /usr/share/nodejs instead of /usr/lib/nodejs.
+  * Mark the import autopkgtest as superficial.
+  * Declare d/rules doesn't require root.
+  * Bump dh compat to 13.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 10 Nov 2020 07:40:18 +0100
+
+node-unicode-property-value-aliases-ecmascript (1.1.0+ds-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Add missing colon in closes line.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.4.1, no changes needed.
+
+  [ Julien Puydt ]
+  * New upstream release.
+  * Bump std-vers to 4.5.0.
+  * Update depends versions (Closes: #928017).
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 15 Mar 2020 10:20:18 +0100
+
+node-unicode-property-value-aliases-ecmascript (1.0.4+ds-2) unstable; urgency=medium
+
+  * Drop useless versioned deps.
+  * Bump dh compat to 12 and drop d/compat.
+  * Bump std-ver to 4.4.0.
+  * Upload closes: #928017.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 31 Jul 2019 09:43:44 +0200
+
+node-unicode-property-value-aliases-ecmascript (1.0.4+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Mark the package M-A: foreign following hinter.
+  * Bump std-ver to 4.3.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 15 Apr 2019 15:04:50 +0200
+
+node-unicode-property-value-aliases-ecmascript (1.0.3+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Use my debian.org mail address.
+    - Use salsa in Vcs-* fields.
+    - Update dates in d/copyright.
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.1.5.
+  * Add dep versioning.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 30 Jul 2018 12:44:52 +0200
+
+node-unicode-property-value-aliases-ecmascript (1.0.1+ds-1) unstable; urgency=low
+
+  * Initial release (Closes: #874738)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 09 Sep 2017 15:04:34 +0200

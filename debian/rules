@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	mkdir data
+	ln -s /usr/share/unicode/PropertyValueAliases.txt data/
+	node scripts/build.js
+
+override_dh_auto_clean:
+	rm -rf data index.js
