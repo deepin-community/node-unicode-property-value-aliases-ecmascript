@@ -1,0 +1,19 @@
+Description: replace ava by tape
+Author: Yadd <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2021-11-17
+
+--- a/tests/tests.js
++++ b/tests/tests.js
+@@ -1,4 +1,4 @@
+-const test = require('ava');
++const test = require('tape');
+ const propertyValueAliases = require('../index.js');
+ 
+ test('unicode-property-value-aliases-ecmascript', t => {
+@@ -30,4 +30,5 @@
+ 		propertyValueAliases.get('Script_Extensions').get('Yezi'),
+ 		'Yezidi'
+ 	);
++	t.end();
+ });

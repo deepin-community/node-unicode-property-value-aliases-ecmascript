@@ -1,3 +1,30 @@
+node-unicode-property-value-aliases-ecmascript (2.1.0+ds-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * Require unicode-data >= 15
+  * New upstream version 2.1.0+ds
+
+ -- Yadd <yadd@debian.org>  Sat, 17 Sep 2022 16:31:23 +0200
+
+node-unicode-property-value-aliases-ecmascript (2.0.0+ds-3) unstable; urgency=medium
+
+  * Team upload
+  * Drop dependency to nodejs
+  * Fix autopkgtest using dh-sequence-nodejs
+
+ -- Yadd <yadd@debian.org>  Wed, 17 Nov 2021 22:16:24 +0100
+
+node-unicode-property-value-aliases-ecmascript (2.0.0+ds-2) unstable; urgency=medium
+
+  * Team upload
+  * Add debian/gbp.conf
+  * Fix filenamemangle
+  * Update unicode dependency to 14.0.0
+  * Enable upstream test using tape instead of ava
+
+ -- Yadd <yadd@debian.org>  Wed, 17 Nov 2021 20:41:36 +0100
+
 node-unicode-property-value-aliases-ecmascript (2.0.0+ds-1) unstable; urgency=medium
 
   [ Debian Janitor ]
