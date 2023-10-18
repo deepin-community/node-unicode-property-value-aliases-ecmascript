@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-node -e "require('unicode-property-value-aliases-ecmascript');"

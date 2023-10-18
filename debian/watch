@@ -2,5 +2,5 @@ version=4
 opts=\
 repacksuffix=+ds,\
 dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-unicode-property-value-aliases-ecmascript-$1.tar.gz/ \
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-unicode-property-value-aliases-ecmascript-$1/ \
  https://github.com/mathiasbynens/unicode-property-value-aliases-ecmascript/tags .*/v?([\d\.]+).tar.gz
